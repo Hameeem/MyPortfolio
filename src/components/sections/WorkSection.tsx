@@ -9,7 +9,7 @@ export const WorkSection: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
   const [activeModalProject, setActiveModalProject] = useState<Project | null>(null);
 
-  const categories = ["All", "Creative Tech", "Web Apps", "Interactive", "Open Source"];
+  const categories = ["All", "Data Engineering", "AI & ML", "Web Apps", "DSA & Systems"];
 
   const filteredProjects = selectedCategory === "All"
     ? siteConfig.projects

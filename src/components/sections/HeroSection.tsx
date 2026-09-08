@@ -21,7 +21,7 @@ export const HeroSection: React.FC = () => {
           {/* Top Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-theme-fill border-2 border-theme-line text-xs font-mono font-bold text-theme-text shadow-neo-sm">
             <Sparkles className="w-4 h-4 text-theme-line" />
-            <span>Creative Development & UI Engineering</span>
+            <span>Data Engineering • Python • AI Developer</span>
           </div>
 
           {/* Main Headline */}
@@ -29,13 +29,13 @@ export const HeroSection: React.FC = () => {
             Hi, I&apos;m <span className="underline decoration-theme-line decoration-wavy decoration-2">{siteConfig.name.split(" ")[0]}</span>.
             <br />
             <span className="text-theme-subtext font-normal text-3xl sm:text-5xl lg:text-6xl block mt-2">
-              Creative Developer.
+              Data & AI Engineer.
             </span>
           </h1>
 
           {/* Subheading / Description */}
           <p className="text-base sm:text-lg text-theme-subtext max-w-xl mx-auto lg:mx-0 leading-relaxed font-sans">
-            Robb is an independent creative developer from {siteConfig.location} who loves helping organizations build ambitious, accessible, and delight-infused web projects.
+            {siteConfig.name} is a Computer Science student passionate about building scalable data pipelines, AI models, and solving real-world algorithms.
           </p>
 
           {/* Action CTAs */}
@@ -44,7 +44,7 @@ export const HeroSection: React.FC = () => {
               href="#work"
               className="px-6 py-3.5 rounded-xl bg-theme-text text-theme-bg font-extrabold text-sm border-2 border-theme-line shadow-neo hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all flex items-center gap-2"
             >
-              <span>Explore Selected Work</span>
+              <span>Explore Data & AI Projects</span>
               <ArrowDown className="w-4 h-4" />
             </a>
 
@@ -70,16 +70,16 @@ export const HeroSection: React.FC = () => {
           {/* Quick Metrics Bar */}
           <div className="pt-8 border-t border-theme-line/20 grid grid-cols-3 gap-4 text-center lg:text-left max-w-md mx-auto lg:mx-0">
             <div>
-              <div className="font-serif font-extrabold text-2xl text-theme-text">10+ Yrs</div>
-              <div className="text-xs text-theme-subtext font-mono">Experience</div>
+              <div className="font-serif font-extrabold text-2xl text-theme-text">25+</div>
+              <div className="text-xs text-theme-subtext font-mono">GitHub Repos</div>
             </div>
             <div>
-              <div className="font-serif font-extrabold text-2xl text-theme-text">50+</div>
-              <div className="text-xs text-theme-subtext font-mono">Web Projects</div>
+              <div className="font-serif font-extrabold text-2xl text-theme-text">LeetCode</div>
+              <div className="text-xs text-theme-subtext font-mono">Problem Solver</div>
             </div>
             <div>
-              <div className="font-serif font-extrabold text-2xl text-theme-text">100%</div>
-              <div className="text-xs text-theme-subtext font-mono">Accessible</div>
+              <div className="font-serif font-extrabold text-2xl text-theme-text">AI / Data</div>
+              <div className="text-xs text-theme-subtext font-mono">Pipelines</div>
             </div>
           </div>
         </motion.div>

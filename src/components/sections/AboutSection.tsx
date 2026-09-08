@@ -6,9 +6,9 @@ import { Briefcase, CheckCircle2, HeartHandshake, User } from "lucide-react";
 
 export const AboutSection: React.FC = () => {
   const skillCategories = [
-    { title: "Frontend Architecture", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5/CSS3"] },
-    { title: "Creative & Animation", items: ["SVG Filters", "Canvas API", "Framer Motion", "WebGL Basics", "Design Systems"] },
-    { title: "Standards & Tools", items: ["WCAG AAA", "Git / GitHub", "Vercel / CI", "Web Performance", "Jest / Vitest"] },
+    { title: "Core Languages", items: ["Python 🐍", "Java ☕", "C++", "C", "SQL / MySQL 🐬", "JavaScript"] },
+    { title: "Data & Machine Learning", items: ["Pandas & NumPy", "PySpark & ETL", "Hadoop & Hive", "Cassandra & HBase", "Power BI / Tableau"] },
+    { title: "Frameworks & Developer Tools", items: ["Streamlit & Plotly", "Docker & Linux 🐧", "Git & GitHub 🐙", "LeetCode (hameem8)", "VS Code"] },
   ];
 
   return (
@@ -20,14 +20,14 @@ export const AboutSection: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-wider text-theme-subtext mb-2">
               <User className="w-4 h-4 text-theme-line" />
-              <span>Background & Ethos</span>
+              <span>Background & Skills</span>
             </div>
             <h2 className="font-serif font-black text-3xl sm:text-5xl text-theme-text">
-              About & Experience
+              About & Technical Ethos
             </h2>
           </div>
           <p className="text-sm text-theme-subtext max-w-md">
-            I blend technical rigor with playful creative interaction. Here is a look at my journey, principles, and skill set.
+            Computer Science student passionate about Data Engineering, Distributed Systems, AI, and solving LeetCode problems.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export const AboutSection: React.FC = () => {
             </div>
             <h3 className="font-serif font-extrabold text-xl text-theme-text">The Story</h3>
             <p className="text-sm text-theme-subtext leading-relaxed">
-              Robb is an independent creative developer based in South Wales. Over a decade of web development has given him a deep passion for clean markup, fluid vector animations, and accessible UX.
+              Hameem is a Computer Science student and developer driven by data engineering, machine learning pipelines, and algorithm optimization.
             </p>
           </div>
 
@@ -49,9 +49,9 @@ export const AboutSection: React.FC = () => {
             <div className="w-10 h-10 rounded-xl bg-theme-fill border border-theme-line flex items-center justify-center text-theme-line">
               <HeartHandshake className="w-5 h-5" />
             </div>
-            <h3 className="font-serif font-extrabold text-xl text-theme-text">Philosophy</h3>
+            <h3 className="font-serif font-extrabold text-xl text-theme-text">Mission</h3>
             <p className="text-sm text-theme-subtext leading-relaxed">
-              Great websites shouldn&apos;t just function; they should spark joy. I believe in building fast, zero-bloat web experiences that perform effortlessly for all users across all devices.
+              Turning raw data into actionable insights and turning complex technical problems into elegant, real-world applications.
             </p>
           </div>
 
@@ -60,23 +60,23 @@ export const AboutSection: React.FC = () => {
             <div className="w-10 h-10 rounded-xl bg-theme-fill border border-theme-line flex items-center justify-center text-theme-line">
               <Briefcase className="w-5 h-5" />
             </div>
-            <h3 className="font-serif font-extrabold text-xl text-theme-text">Quick Facts</h3>
+            <h3 className="font-serif font-extrabold text-xl text-theme-text">Highlights</h3>
             <ul className="text-xs font-mono space-y-2.5 text-theme-subtext">
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                <span>Writes in third person occasionally</span>
+                <span>Active LeetCode Problem Solver (hameem8)</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                <span>Vector SVG animation fanatic</span>
+                <span>NCSC State Level Participant 🏅</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                <span>Strong proponent of web accessibility</span>
+                <span>Built DataFlowX & Detective Dank AI</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
-                <span>Fueled by tea & Welsh mountains 🏔️</span>
+                <span>Always learning something new 🚀</span>
               </li>
             </ul>
           </div>
