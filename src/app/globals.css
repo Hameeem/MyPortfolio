@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme-bg: #070a12;
+  --theme-text: #f0f9ff;
+  --theme-subtext: #7dd3fc;
+  --theme-line: #00ff88;
+  --theme-fill: #38bdf8;
+  --theme-accent: #00e5ff;
+  --theme-duo: #00ff88;
+  --theme-card: #0f172a;
+}
+
+body {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Background diagonal stripes vector pattern */
+.bg-stripes {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22.93 22.93'%3E%3Cpolygon fill='%23aadcec' points='0 8.18 14.75 22.93 22.74 22.93 0 0.19 0 8.18'/%3E%3Cpolygon fill='%23aadcec' points='22.93 8.37 22.93 0.38 22.56 0 14.56 0 22.93 8.37'/%3E%3C/svg%3E");
+  background-size: 14px;
+}
+
+/* Background dots vector pattern */
+.bg-dots {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22.9 22.9'%3E%3Ccircle fill='%237f00e0' opacity='0.15' cx='5.7' cy='5.9' r='2.5'/%3E%3Ccircle fill='%237f00e0' opacity='0.15' cx='17.2' cy='17.2' r='2.5'/%3E%3C/svg%3E");
+  background-size: 16px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--theme-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--theme-fill);
+  border: 2px solid var(--theme-line);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-line);
+}
