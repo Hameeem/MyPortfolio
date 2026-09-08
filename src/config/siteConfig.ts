@@ -43,7 +43,7 @@ export interface Article {
 
 export const siteConfig = {
   name: "Hameem Baba",
-  role: "Data Engineer & AI / Python Developer",
+  role: "Data Science, Analytics and Software Development",
   tagline: "Turning data into insights and ideas into real-world applications.",
   location: "India",
   status: "Open for Data Engineering & AI Roles",

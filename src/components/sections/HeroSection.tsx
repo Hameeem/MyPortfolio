@@ -21,15 +21,15 @@ export const HeroSection: React.FC = () => {
           {/* Top Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-theme-fill border-2 border-theme-line text-xs font-mono font-bold text-theme-text shadow-neo-sm">
             <Sparkles className="w-4 h-4 text-theme-line" />
-            <span>Data Engineering • Python • AI Developer</span>
+            <span>Data Science • Analytics • Software Development</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="font-serif font-black text-4xl sm:text-6xl lg:text-7xl leading-[1.08] text-theme-text tracking-tight">
             Hi, I&apos;m <span className="underline decoration-theme-line decoration-wavy decoration-2">{siteConfig.name.split(" ")[0]}</span>.
             <br />
-            <span className="text-theme-subtext font-normal text-3xl sm:text-5xl lg:text-6xl block mt-2">
-              Data & AI Engineer.
+            <span className="text-theme-subtext font-normal text-2xl sm:text-4xl lg:text-5xl block mt-3">
+              Data Science, Analytics & Software Development.
             </span>
           </h1>
 
